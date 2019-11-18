@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+
 body {
   background-color: blue;
+  background-image: url("../images/Crystalball-lady.jfif");
+  font-family: "Lobster", cursive;
+  color: whitesmoke;
+}
+
+p {
+  font-weight: bold;
 }

@@ -41,7 +41,8 @@ updateLetterToGuess();
 updateGuessesLeft();
 
 // This function will capture the keyboard clicks.
-document.onkeydown = function(event) {
+document.onkeyup = function(event) {
+  console.log(letterToGuess);
   // It's going to reduce the guesses by one
   guessesLeft--;
 
